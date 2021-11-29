@@ -26,7 +26,12 @@ $ yarn setup
 This only needs to be run once, then populate .env file with details.
 
 #### Compiling and deploying
+In separete terminal start your local blockchain
+```shell
+$ yarn start-chain
+```
 
+Then in another terminal run (to compile and deploy):
 ```shell
 $ yarn compile
 $ yarn deploy-local
