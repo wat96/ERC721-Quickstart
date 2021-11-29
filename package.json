@@ -15,6 +15,7 @@
         "deploy-main": "npx hardhat run scripts/deploy.js --network mainnet",
         "deploy-rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
         "deploy-local": "npx hardhat run scripts/deploy.js --network localhost",
-        "start-chain": "npx hardhat node"
+        "start-chain": "npx hardhat node",
+        "setup": "cp .env.templ .env; yarn;"
     }
 }
