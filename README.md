@@ -11,6 +11,8 @@ If you don't have them installed, this setup usually works
 
 ```shell
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+$ nvm install
+$ nvm use
 $ npm i -g yarn
 ```
 
