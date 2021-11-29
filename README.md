@@ -23,7 +23,7 @@ Clone repo and change directory into it. Run:
 $ yarn setup
 ```
 
-This only needs to be run once, then populate .env file with details.
+This only needs to be run once, then populate .env file with details (if you want to deploy to a remote network).
 
 #### Compiling and deploying
 In separete terminal start your local blockchain
