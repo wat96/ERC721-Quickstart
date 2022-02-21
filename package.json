@@ -4,11 +4,11 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
-        "@nomiclabs/hardhat-ethers": "^2.0.2",
+        "@nomiclabs/hardhat-ethers": "^2.0.4",
         "@openzeppelin/contracts": "^4.4.0",
         "dotenv": "^10.0.0",
-        "ethers": "^5.5.1",
-        "hardhat": "^2.7.0"
+        "ethers": "^5.5.3",
+        "hardhat": "^2.8.2"
     },
     "scripts": {
         "compile": "npx hardhat clean; npx hardhat compile",
@@ -17,5 +17,8 @@
         "deploy-local": "npx hardhat run scripts/deploy.js --network localhost",
         "start-chain": "npx hardhat node",
         "setup": "cp .env.templ .env; yarn;"
+    },
+    "engines": {
+        "node": "^16"
     }
 }
